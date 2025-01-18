@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="NameEntries">
+      <EntityTypeMapping TypeName="Model.NameEntry">
+        <MappingFragment StoreEntitySet="NameEntries">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Artists">
+      <EntityTypeMapping TypeName="Model.Artist">
+        <MappingFragment StoreEntitySet="Artist">
+          <ScalarProperty Name="LocationID" ColumnName="LocationID" />
+          <ScalarProperty Name="Popularity" ColumnName="Popularity" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+          <ScalarProperty Name="Hometown" ColumnName="Hometown" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Genres">
+      <EntityTypeMapping TypeName="Model.Genre">
+        <MappingFragment StoreEntitySet="Genre">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tracks">
+      <EntityTypeMapping TypeName="Model.Track">
+        <MappingFragment StoreEntitySet="Track">
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ArtistID" ColumnName="ArtistID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="ArtistToGenre" TypeName="Model.ArtistToGenre" StoreEntitySet="ArtistToGenre">
+      <EndProperty Name="Genre">
+        <ScalarProperty Name="ID" ColumnName="GenreID" />
+      </EndProperty>
+      <EndProperty Name="Artist">
+        <ScalarProperty Name="ID" ColumnName="ArtistID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="MusicCategories">
+      <EntityTypeMapping TypeName="Model.MusicCategory">
+        <MappingFragment StoreEntitySet="MusicCategory">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="MusicCategoryToGenre" TypeName="Model.MusicCategoryToGenre" StoreEntitySet="MusicCategoryToGenre">
+      <EndProperty Name="MusicCategory">
+        <ScalarProperty Name="ID" ColumnName="MusicCategoryID" />
+      </EndProperty>
+      <EndProperty Name="Genre">
+        <ScalarProperty Name="ID" ColumnName="GenreID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Model.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="PreferredName" ColumnName="PreferredName" />
+          <ScalarProperty Name="Popularity" ColumnName="Popularity" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="MusicCategoryToUser" TypeName="Model.MusicCategoryToUser" StoreEntitySet="MusicCategoryToUser">
+      <EndProperty Name="User">
+        <ScalarProperty Name="ID" ColumnName="UserID" />
+      </EndProperty>
+      <EndProperty Name="MusicCategory">
+        <ScalarProperty Name="ID" ColumnName="MusicCategoryID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="Locations">
+      <EntityTypeMapping TypeName="Model.Location">
+        <MappingFragment StoreEntitySet="Location">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="UserRecommendation" FunctionName="Model.Store.UserRecommendation">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.UserRecommendation_Result">
+          <ScalarProperty Name="ArtistID" ColumnName="ArtistID" />
+          <ScalarProperty Name="Hometown" ColumnName="Hometown" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Popularity" ColumnName="Popularity" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="TrackTitleList" ColumnName="TrackTitleList" />
+          <ScalarProperty Name="GenreList" ColumnName="GenreList" />
+          <ScalarProperty Name="CategoryList" ColumnName="CategoryList" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

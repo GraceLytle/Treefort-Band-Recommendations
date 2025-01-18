@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Artist">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Hometown" Type="nvarchar" MaxLength="255" />
+    <Property Name="ImageURL" Type="nvarchar" MaxLength="255" />
+    <Property Name="Popularity" Type="int" />
+    <Property Name="LocationID" Type="int" />
+  </EntityType>
+  <EntityType Name="ArtistToGenre">
+    <Key>
+      <PropertyRef Name="ArtistID" />
+      <PropertyRef Name="GenreID" />
+    </Key>
+    <Property Name="ArtistID" Type="int" Nullable="false" />
+    <Property Name="GenreID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="MusicCategory">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="MusicCategoryToGenre">
+    <Key>
+      <PropertyRef Name="MusicCategoryID" />
+      <PropertyRef Name="GenreID" />
+    </Key>
+    <Property Name="MusicCategoryID" Type="int" Nullable="false" />
+    <Property Name="GenreID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MusicCategoryToUser">
+    <Key>
+      <PropertyRef Name="MusicCategoryID" />
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="MusicCategoryID" Type="int" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NameEntries">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Track">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ArtistID" Type="int" />
+    <Property Name="Title" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Location" Type="nvarchar" MaxLength="255" />
+    <Property Name="Popularity" Type="int" />
+    <Property Name="PreferredName" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <Association Name="FK__ArtistToG__Artis__6B24EA82">
+    <End Role="Artist" Type="Self.Artist" Multiplicity="1" />
+    <End Role="ArtistToGenre" Type="Self.ArtistToGenre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Artist">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ArtistToGenre">
+        <PropertyRef Name="ArtistID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ArtistToG__Genre__6C190EBB">
+    <End Role="Genre" Type="Self.Genre" Multiplicity="1" />
+    <End Role="ArtistToGenre" Type="Self.ArtistToGenre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genre">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ArtistToGenre">
+        <PropertyRef Name="GenreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MusicCate__Genre__02FC7413">
+    <End Role="Genre" Type="Self.Genre" Multiplicity="1" />
+    <End Role="MusicCategoryToGenre" Type="Self.MusicCategoryToGenre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genre">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MusicCategoryToGenre">
+        <PropertyRef Name="GenreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MusicCate__Music__02084FDA">
+    <End Role="MusicCategory" Type="Self.MusicCategory" Multiplicity="1" />
+    <End Role="MusicCategoryToGenre" Type="Self.MusicCategoryToGenre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MusicCategory">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MusicCategoryToGenre">
+        <PropertyRef Name="MusicCategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MusicCate__Music__0A9D95DB">
+    <End Role="MusicCategory" Type="Self.MusicCategory" Multiplicity="1" />
+    <End Role="MusicCategoryToUser" Type="Self.MusicCategoryToUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MusicCategory">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MusicCategoryToUser">
+        <PropertyRef Name="MusicCategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MusicCate__UserI__09A971A2">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="MusicCategoryToUser" Type="Self.MusicCategoryToUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MusicCategoryToUser">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Track__ArtistID__7C4F7684">
+    <End Role="Artist" Type="Self.Artist" Multiplicity="0..1" />
+    <End Role="Track" Type="Self.Track" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Artist">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Track">
+        <PropertyRef Name="ArtistID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Artist_Location">
+    <End Role="Location" Type="Self.Location" Multiplicity="0..1" />
+    <End Role="Artist" Type="Self.Artist" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Artist">
+        <PropertyRef Name="LocationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="UserRecommendation" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="app">
+    <Parameter Name="email" Type="nvarchar" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="ArtistID" Type="int" Nullable="false" />
+          <Property Name="Hometown" Type="nvarchar" MaxLength="255" />
+          <Property Name="Image" Type="nvarchar" MaxLength="255" />
+          <Property Name="Name" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="Popularity" Type="int" />
+          <Property Name="Location" Type="nvarchar" MaxLength="100" />
+          <Property Name="TrackTitleList" Type="nvarchar" MaxLength="4000" />
+          <Property Name="GenreList" Type="nvarchar" MaxLength="4000" />
+          <Property Name="CategoryList" Type="nvarchar" MaxLength="4000" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="Artist" EntityType="Self.Artist" Schema="app" store:Type="Tables" />
+    <EntitySet Name="ArtistToGenre" EntityType="Self.ArtistToGenre" Schema="app" store:Type="Tables" />
+    <EntitySet Name="Genre" EntityType="Self.Genre" Schema="app" store:Type="Tables" />
+    <EntitySet Name="Location" EntityType="Self.Location" Schema="app" store:Type="Tables" />
+    <EntitySet Name="MusicCategory" EntityType="Self.MusicCategory" Schema="app" store:Type="Tables" />
+    <EntitySet Name="MusicCategoryToGenre" EntityType="Self.MusicCategoryToGenre" Schema="app" store:Type="Tables" />
+    <EntitySet Name="MusicCategoryToUser" EntityType="Self.MusicCategoryToUser" Schema="app" store:Type="Tables" />
+    <EntitySet Name="NameEntries" EntityType="Self.NameEntries" Schema="app" store:Type="Tables" />
+    <EntitySet Name="Track" EntityType="Self.Track" Schema="app" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="app" store:Type="Tables" />
+    <AssociationSet Name="FK__ArtistToG__Artis__6B24EA82" Association="Self.FK__ArtistToG__Artis__6B24EA82">
+      <End Role="Artist" EntitySet="Artist" />
+      <End Role="ArtistToGenre" EntitySet="ArtistToGenre" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ArtistToG__Genre__6C190EBB" Association="Self.FK__ArtistToG__Genre__6C190EBB">
+      <End Role="Genre" EntitySet="Genre" />
+      <End Role="ArtistToGenre" EntitySet="ArtistToGenre" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MusicCate__Genre__02FC7413" Association="Self.FK__MusicCate__Genre__02FC7413">
+      <End Role="Genre" EntitySet="Genre" />
+      <End Role="MusicCategoryToGenre" EntitySet="MusicCategoryToGenre" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MusicCate__Music__02084FDA" Association="Self.FK__MusicCate__Music__02084FDA">
+      <End Role="MusicCategory" EntitySet="MusicCategory" />
+      <End Role="MusicCategoryToGenre" EntitySet="MusicCategoryToGenre" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MusicCate__Music__0A9D95DB" Association="Self.FK__MusicCate__Music__0A9D95DB">
+      <End Role="MusicCategory" EntitySet="MusicCategory" />
+      <End Role="MusicCategoryToUser" EntitySet="MusicCategoryToUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MusicCate__UserI__09A971A2" Association="Self.FK__MusicCate__UserI__09A971A2">
+      <End Role="User" EntitySet="User" />
+      <End Role="MusicCategoryToUser" EntitySet="MusicCategoryToUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Track__ArtistID__7C4F7684" Association="Self.FK__Track__ArtistID__7C4F7684">
+      <End Role="Artist" EntitySet="Artist" />
+      <End Role="Track" EntitySet="Track" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Artist_Location" Association="Self.FK_Artist_Location">
+      <End Role="Location" EntitySet="Location" />
+      <End Role="Artist" EntitySet="Artist" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

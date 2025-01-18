@@ -1,0 +1,180 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ACDE5C-ED45-4FC8-9508-BFCB459C48F2}|TreefortAPI\\TreefortAPI.csproj|c:\\localrepobsu\\demo-hour-dart\\treefort.api\\treefortapi\\treefortapi\\controllers\\musiciancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ACDE5C-ED45-4FC8-9508-BFCB459C48F2}|TreefortAPI\\TreefortAPI.csproj|solutionrelative:treefortapi\\controllers\\musiciancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{124FDE8B-7C29-4DD8-AB93-3706AA701BE3}|Treefort.lib.DAL\\Treefort.lib.DAL.csproj|C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\treefort.lib.dal\\data\\services\\musicianservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{124FDE8B-7C29-4DD8-AB93-3706AA701BE3}|Treefort.lib.DAL\\Treefort.lib.DAL.csproj|solutionrelative:treefort.lib.dal\\data\\services\\musicianservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ACDE5C-ED45-4FC8-9508-BFCB459C48F2}|TreefortAPI\\TreefortAPI.csproj|c:\\localrepobsu\\demo-hour-dart\\treefort.api\\treefortapi\\treefortapi\\controllers\\userpreferencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ACDE5C-ED45-4FC8-9508-BFCB459C48F2}|TreefortAPI\\TreefortAPI.csproj|solutionrelative:treefortapi\\controllers\\userpreferencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{124FDE8B-7C29-4DD8-AB93-3706AA701BE3}|Treefort.lib.DAL\\Treefort.lib.DAL.csproj|C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\treefort.lib.dal\\data\\model\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{124FDE8B-7C29-4DD8-AB93-3706AA701BE3}|Treefort.lib.DAL\\Treefort.lib.DAL.csproj|solutionrelative:treefort.lib.dal\\data\\model\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{124FDE8B-7C29-4DD8-AB93-3706AA701BE3}|Treefort.lib.DAL\\Treefort.lib.DAL.csproj|C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\treefort.lib.dal\\data\\services\\userpreferenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{124FDE8B-7C29-4DD8-AB93-3706AA701BE3}|Treefort.lib.DAL\\Treefort.lib.DAL.csproj|solutionrelative:treefort.lib.dal\\data\\services\\userpreferenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{124FDE8B-7C29-4DD8-AB93-3706AA701BE3}|Treefort.lib.DAL\\Treefort.lib.DAL.csproj|C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\treefort.lib.dal\\models\\artistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{124FDE8B-7C29-4DD8-AB93-3706AA701BE3}|Treefort.lib.DAL\\Treefort.lib.DAL.csproj|solutionrelative:treefort.lib.dal\\models\\artistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ACDE5C-ED45-4FC8-9508-BFCB459C48F2}|TreefortAPI\\TreefortAPI.csproj|c:\\localrepobsu\\demo-hour-dart\\treefort.api\\treefortapi\\treefortapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ACDE5C-ED45-4FC8-9508-BFCB459C48F2}|TreefortAPI\\TreefortAPI.csproj|solutionrelative:treefortapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ACDE5C-ED45-4FC8-9508-BFCB459C48F2}|TreefortAPI\\TreefortAPI.csproj|c:\\localrepobsu\\demo-hour-dart\\treefort.api\\treefortapi\\treefortapi\\models\\userpreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ACDE5C-ED45-4FC8-9508-BFCB459C48F2}|TreefortAPI\\TreefortAPI.csproj|solutionrelative:treefortapi\\models\\userpreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{124FDE8B-7C29-4DD8-AB93-3706AA701BE3}|Treefort.lib.DAL\\Treefort.lib.DAL.csproj|C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\treefort.lib.dal\\data\\model\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{124FDE8B-7C29-4DD8-AB93-3706AA701BE3}|Treefort.lib.DAL\\Treefort.lib.DAL.csproj|solutionrelative:treefort.lib.dal\\data\\model\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{124FDE8B-7C29-4DD8-AB93-3706AA701BE3}|Treefort.lib.DAL\\Treefort.lib.DAL.csproj|C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\treefort.lib.dal\\models\\genredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{124FDE8B-7C29-4DD8-AB93-3706AA701BE3}|Treefort.lib.DAL\\Treefort.lib.DAL.csproj|solutionrelative:treefort.lib.dal\\models\\genredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MusicianController.cs",
+              "DocumentMoniker": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\TreefortAPI\\Controllers\\MusicianController.cs",
+              "RelativeDocumentMoniker": "TreefortAPI\\Controllers\\MusicianController.cs",
+              "ToolTip": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\TreefortAPI\\Controllers\\MusicianController.cs",
+              "RelativeToolTip": "TreefortAPI\\Controllers\\MusicianController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAmwCkAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T19:46:39.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\Treefort.lib.DAL\\Data\\Model\\Artist.cs",
+              "RelativeDocumentMoniker": "Treefort.lib.DAL\\Data\\Model\\Artist.cs",
+              "ToolTip": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\Treefort.lib.DAL\\Data\\Model\\Artist.cs",
+              "RelativeToolTip": "Treefort.lib.DAL\\Data\\Model\\Artist.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T22:20:03.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Model.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\Treefort.lib.DAL\\Data\\Model\\Model.edmx",
+              "RelativeDocumentMoniker": "Treefort.lib.DAL\\Data\\Model\\Model.edmx",
+              "ToolTip": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\Treefort.lib.DAL\\Data\\Model\\Model.edmx [Diagram1]",
+              "RelativeToolTip": "Treefort.lib.DAL\\Data\\Model\\Model.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-09T22:18:09.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\TreefortAPI\\Program.cs",
+              "RelativeDocumentMoniker": "TreefortAPI\\Program.cs",
+              "ToolTip": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\TreefortAPI\\Program.cs",
+              "RelativeToolTip": "TreefortAPI\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCMAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T22:27:52.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserPreference.cs",
+              "DocumentMoniker": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\TreefortAPI\\Models\\UserPreference.cs",
+              "RelativeDocumentMoniker": "TreefortAPI\\Models\\UserPreference.cs",
+              "ToolTip": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\TreefortAPI\\Models\\UserPreference.cs",
+              "RelativeToolTip": "TreefortAPI\\Models\\UserPreference.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T02:48:31.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserPreferenceService.cs",
+              "DocumentMoniker": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\Treefort.lib.DAL\\Data\\Services\\UserPreferenceService.cs",
+              "RelativeDocumentMoniker": "Treefort.lib.DAL\\Data\\Services\\UserPreferenceService.cs",
+              "ToolTip": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\Treefort.lib.DAL\\Data\\Services\\UserPreferenceService.cs",
+              "RelativeToolTip": "Treefort.lib.DAL\\Data\\Services\\UserPreferenceService.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAtwG8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T19:50:03.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserPreferenceController.cs",
+              "DocumentMoniker": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\TreefortAPI\\Controllers\\UserPreferenceController.cs",
+              "RelativeDocumentMoniker": "TreefortAPI\\Controllers\\UserPreferenceController.cs",
+              "ToolTip": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\TreefortAPI\\Controllers\\UserPreferenceController.cs",
+              "RelativeToolTip": "TreefortAPI\\Controllers\\UserPreferenceController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAIAzwCUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T22:23:16.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArtistDTO.cs",
+              "DocumentMoniker": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\Treefort.lib.DAL\\Models\\ArtistDTO.cs",
+              "RelativeDocumentMoniker": "Treefort.lib.DAL\\Models\\ArtistDTO.cs",
+              "ToolTip": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\Treefort.lib.DAL\\Models\\ArtistDTO.cs",
+              "RelativeToolTip": "Treefort.lib.DAL\\Models\\ArtistDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T22:38:20.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenreDTO.cs",
+              "DocumentMoniker": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\Treefort.lib.DAL\\Models\\GenreDTO.cs",
+              "RelativeDocumentMoniker": "Treefort.lib.DAL\\Models\\GenreDTO.cs",
+              "ToolTip": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\Treefort.lib.DAL\\Models\\GenreDTO.cs",
+              "RelativeToolTip": "Treefort.lib.DAL\\Models\\GenreDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:34:22.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MusicianService.cs",
+              "DocumentMoniker": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\Treefort.lib.DAL\\Data\\Services\\MusicianService.cs",
+              "RelativeDocumentMoniker": "Treefort.lib.DAL\\Data\\Services\\MusicianService.cs",
+              "ToolTip": "C:\\LocalRepoBSU\\demo-hour-dart\\treefort.api\\TreefortAPI\\Treefort.lib.DAL\\Data\\Services\\MusicianService.cs",
+              "RelativeToolTip": "Treefort.lib.DAL\\Data\\Services\\MusicianService.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowDUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T22:17:42.425Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

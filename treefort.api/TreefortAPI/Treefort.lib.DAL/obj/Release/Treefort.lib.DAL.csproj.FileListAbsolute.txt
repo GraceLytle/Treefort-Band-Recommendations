@@ -1,0 +1,12 @@
+C:\LocalRepoBSU\demo-hour-dart\treefort.api\TreefortAPI\Treefort.lib.DAL\bin\Release\Treefort.lib.DAL.dll.config
+C:\LocalRepoBSU\demo-hour-dart\treefort.api\TreefortAPI\Treefort.lib.DAL\bin\Release\Treefort.lib.DAL.dll
+C:\LocalRepoBSU\demo-hour-dart\treefort.api\TreefortAPI\Treefort.lib.DAL\bin\Release\Treefort.lib.DAL.pdb
+C:\LocalRepoBSU\demo-hour-dart\treefort.api\TreefortAPI\Treefort.lib.DAL\bin\Release\EntityFramework.dll
+C:\LocalRepoBSU\demo-hour-dart\treefort.api\TreefortAPI\Treefort.lib.DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\LocalRepoBSU\demo-hour-dart\treefort.api\TreefortAPI\Treefort.lib.DAL\bin\Release\EntityFramework.xml
+C:\LocalRepoBSU\demo-hour-dart\treefort.api\TreefortAPI\Treefort.lib.DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\LocalRepoBSU\demo-hour-dart\treefort.api\TreefortAPI\Treefort.lib.DAL\obj\Release\Treefort.lib.DAL.csproj.AssemblyReference.cache
+C:\LocalRepoBSU\demo-hour-dart\treefort.api\TreefortAPI\Treefort.lib.DAL\obj\Release\Treefort.lib.DAL.csproj.CoreCompileInputs.cache
+C:\LocalRepoBSU\demo-hour-dart\treefort.api\TreefortAPI\Treefort.lib.DAL\obj\Release\Treefort.FB9E93D1.Up2Date
+C:\LocalRepoBSU\demo-hour-dart\treefort.api\TreefortAPI\Treefort.lib.DAL\obj\Release\Treefort.lib.DAL.dll
+C:\LocalRepoBSU\demo-hour-dart\treefort.api\TreefortAPI\Treefort.lib.DAL\obj\Release\Treefort.lib.DAL.pdb

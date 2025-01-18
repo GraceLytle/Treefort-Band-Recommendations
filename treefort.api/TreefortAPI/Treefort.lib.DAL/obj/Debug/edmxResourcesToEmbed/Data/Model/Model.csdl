@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NameEntry">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NameEntries" EntityType="Self.NameEntry" />
+    <EntitySet Name="Artists" EntityType="Model.Artist" />
+    <EntitySet Name="Genres" EntityType="Model.Genre" />
+    <EntitySet Name="Tracks" EntityType="Model.Track" />
+    <AssociationSet Name="FK__Track__ArtistID__7C4F7684" Association="Model.FK__Track__ArtistID__7C4F7684">
+      <End Role="Artist" EntitySet="Artists" />
+      <End Role="Track" EntitySet="Tracks" />
+    </AssociationSet>
+    <AssociationSet Name="ArtistToGenre" Association="Model.ArtistToGenre">
+      <End Role="Artist" EntitySet="Artists" />
+      <End Role="Genre" EntitySet="Genres" />
+    </AssociationSet>
+    <EntitySet Name="MusicCategories" EntityType="Model.MusicCategory" />
+    <AssociationSet Name="MusicCategoryToGenre" Association="Model.MusicCategoryToGenre">
+      <End Role="Genre" EntitySet="Genres" />
+      <End Role="MusicCategory" EntitySet="MusicCategories" />
+    </AssociationSet>
+    <EntitySet Name="Users" EntityType="Model.User" />
+    <AssociationSet Name="MusicCategoryToUser" Association="Model.MusicCategoryToUser">
+      <End Role="MusicCategory" EntitySet="MusicCategories" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
+    <EntitySet Name="Locations" EntityType="Model.Location" />
+    <AssociationSet Name="FK_Artist_Location" Association="Model.FK_Artist_Location">
+      <End Role="Location" EntitySet="Locations" />
+      <End Role="Artist" EntitySet="Artists" />
+    </AssociationSet>
+    <FunctionImport Name="UserRecommendation" IsComposable="true" ReturnType="Collection(Model.UserRecommendation_Result)">
+      <Parameter Name="email" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="Artist">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Hometown" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ImageURL" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Popularity" Type="Int32" />
+    <NavigationProperty Name="Tracks" Relationship="Model.FK__Track__ArtistID__7C4F7684" FromRole="Artist" ToRole="Track" />
+    <NavigationProperty Name="Genres" Relationship="Model.ArtistToGenre" FromRole="Artist" ToRole="Genre" />
+    <Property Name="LocationID" Type="Int32" />
+    <NavigationProperty Name="Location" Relationship="Model.FK_Artist_Location" FromRole="Artist" ToRole="Location" />
+  </EntityType>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Artists" Relationship="Model.ArtistToGenre" FromRole="Genre" ToRole="Artist" />
+    <NavigationProperty Name="MusicCategories" Relationship="Model.MusicCategoryToGenre" FromRole="Genre" ToRole="MusicCategory" />
+  </EntityType>
+  <EntityType Name="Track">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ArtistID" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Artist" Relationship="Model.FK__Track__ArtistID__7C4F7684" FromRole="Track" ToRole="Artist" />
+  </EntityType>
+  <Association Name="FK__Track__ArtistID__7C4F7684">
+    <End Type="Model.Artist" Role="Artist" Multiplicity="0..1" />
+    <End Type="Model.Track" Role="Track" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Artist">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Track">
+        <PropertyRef Name="ArtistID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ArtistToGenre">
+    <End Type="Model.Artist" Role="Artist" Multiplicity="*" />
+    <End Type="Model.Genre" Role="Genre" Multiplicity="*" />
+  </Association>
+  <EntityType Name="MusicCategory">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Genres" Relationship="Model.MusicCategoryToGenre" FromRole="MusicCategory" ToRole="Genre" />
+    <NavigationProperty Name="Users" Relationship="Model.MusicCategoryToUser" FromRole="MusicCategory" ToRole="User" />
+  </EntityType>
+  <Association Name="MusicCategoryToGenre">
+    <End Type="Model.Genre" Role="Genre" Multiplicity="*" />
+    <End Type="Model.MusicCategory" Role="MusicCategory" Multiplicity="*" />
+  </Association>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Location" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Popularity" Type="Int32" />
+    <NavigationProperty Name="MusicCategories" Relationship="Model.MusicCategoryToUser" FromRole="User" ToRole="MusicCategory" />
+    <Property Name="PreferredName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="MusicCategoryToUser">
+    <End Type="Model.MusicCategory" Role="MusicCategory" Multiplicity="*" />
+    <End Type="Model.User" Role="User" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Artists" Relationship="Model.FK_Artist_Location" FromRole="Location" ToRole="Artist" />
+  </EntityType>
+  <Association Name="FK_Artist_Location">
+    <End Type="Model.Location" Role="Location" Multiplicity="0..1" />
+    <End Type="Model.Artist" Role="Artist" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Artist">
+        <PropertyRef Name="LocationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="UserRecommendation_Result">
+    <Property Type="Int32" Name="ArtistID" Nullable="false" />
+    <Property Type="String" Name="Hometown" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Image" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="255" />
+    <Property Type="Int32" Name="Popularity" Nullable="true" />
+    <Property Type="String" Name="Location" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="TrackTitleList" Nullable="true" MaxLength="4000" />
+    <Property Type="String" Name="GenreList" Nullable="true" MaxLength="4000" />
+    <Property Type="String" Name="CategoryList" Nullable="true" MaxLength="4000" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,1057 @@
+{
+    "artists": [
+        {
+            "name": "SOFI TUKKER",
+            "hometown": "New York, NY",
+            "genres": [
+                "edm"
+            ],
+            "tracks": [
+                "Purple Hat",
+                "Woof (feat. Kah-Lo)",
+                "Original Sin",
+                "Throw Some Ass"
+            ],
+            "categories": [
+                "Pop and Electronic"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb6a0b1b288f88a52c8dfdd9e9",
+            "popularity": 69
+        },
+        {
+            "name": "Shakey Graves",
+            "hometown": "Austin, TX",
+            "genres": [
+                "seattle indie",
+                "indie folk",
+                "stomp and holler",
+                "austindie",
+                "new americana",
+                "austin americana"
+            ],
+            "tracks": [
+                "Tomorrow",
+                "Dearly Departed (feat. Esmé Patterson)",
+                "Ready or Not (feat. Sierra Ferrell)",
+                "A World So Full of Love"
+            ],
+            "categories": [
+                "Alternative and Indie",
+                "Folk and Americana"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb52f46c18254a398ee959d0b5",
+            "popularity": 60
+        },
+        {
+            "name": "Bright Eyes",
+            "hometown": "Omaha, NE",
+            "genres": [
+                "indie rock",
+                "stomp and holler",
+                "chamber pop",
+                "omaha indie",
+                "melancholia"
+            ],
+            "tracks": [
+                "First Day of My Life",
+                "Lua",
+                "At the Bottom of Everything",
+                "All Threes"
+            ],
+            "categories": [
+                "Alternative and Indie",
+                "Folk and Americana"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebdc72347cdd352dfb5739f4c8",
+            "popularity": 58
+        },
+        {
+            "name": "Jessica Pratt",
+            "hometown": "Redding, CA",
+            "genres": [
+                "ambient folk",
+                "freak folk",
+                "art pop"
+            ],
+            "tracks": [
+                "HIGHJACK",
+                "Life Is",
+                "Back, Baby",
+                "World on a String"
+            ],
+            "categories": [
+                "Folk and Americana",
+                "Pop and Electronic"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb98685f8a4f1d712010a566e9",
+            "popularity": 60
+        },
+        {
+            "name": "Hot Mulligan",
+            "hometown": "Lansing, MI",
+            "genres": [
+                "emo",
+                "pop punk",
+                "alternative emo"
+            ],
+            "tracks": [
+                "*Equip Sunglasses*",
+                "Featuring Mark Hoppus",
+                "BCKYRD",
+                "Fly Move (The Whole Time)"
+            ],
+            "categories": [
+                "Pop and Electronic",
+                "Rock and Punk",
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebf9e7e0a231136fa7894c4882",
+            "popularity": 63
+        },
+        {
+            "name": "Youth Lagoon",
+            "hometown": "Boise, ID",
+            "genres": [
+                "indie rock",
+                "shimmer pop",
+                "dream pop",
+                "chillwave",
+                "stomp and holler",
+                "chamber pop",
+                "indietronica",
+                "experimental pop",
+                "idaho indie"
+            ],
+            "tracks": [],
+            "categories": [
+                "Alternative and Indie",
+                "Folk and Americana"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb2c17be43e702708690ed3f47",
+            "popularity": 46
+        },
+        {
+            "name": "The Linda Lindas",
+            "hometown": "Los Angeles, CA",
+            "genres": [
+                "riot grrrl"
+            ],
+            "tracks": [
+                "All In My Head",
+                "Oh!",
+                "Nothing Would Change",
+                "No Obligation"
+            ],
+            "categories": [
+                "Rock and Punk"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb6147fc296c721f1143132bbf",
+            "popularity": 49
+        },
+        {
+            "name": "The Wood Brothers",
+            "hometown": "Nashville, TN",
+            "genres": [
+                "modern blues",
+                "jam band",
+                "progressive bluegrass",
+                "stomp and holler",
+                "roots rock",
+                "new americana"
+            ],
+            "tracks": [
+                "Luckiest Man",
+                "Postcards From Hell",
+                "I Got Loaded",
+                "The Muse"
+            ],
+            "categories": [
+                "Jazz and Blues",
+                "Instrumental and Experimental",
+                "Miscellaneous",
+                "Folk and Americana",
+                "Rock and Punk"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb5f4d07bc5902dc98ce181452",
+            "popularity": 48
+        },
+        {
+            "name": "Empress Of",
+            "hometown": "Los Angeles, CA",
+            "genres": [
+                "etherpop",
+                "shiver pop",
+                "electropop",
+                "escape room",
+                "art pop"
+            ],
+            "tracks": [
+                "4eva",
+                "Wild Girl - Paul Woolford Remix",
+                "Galina",
+                "Loud"
+            ],
+            "categories": [
+                "Alternative and Indie",
+                "Pop and Electronic"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebbc13e969e791f247cb1d5d7b",
+            "popularity": 54
+        },
+        {
+            "name": "PawPaw Rod",
+            "hometown": "Los Angeles, CA",
+            "genres": [
+                "indie r&b"
+            ],
+            "tracks": [
+                "HIT EM WHERE IT HURTS",
+                "Lemonhaze",
+                "Is It Magic?",
+                "Rainy"
+            ],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebb318852b9c5b6338c361244e",
+            "popularity": 55
+        },
+        {
+            "name": "Yot Club ",
+            "hometown": "Jackson, MS",
+            "genres": [
+                "bedroom pop"
+            ],
+            "tracks": [
+                "YKWIM?",
+                "no way !",
+                "japan",
+                "Landlord"
+            ],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb95626b632b25e21427792a21",
+            "popularity": 68
+        },
+        {
+            "name": "Reckless Kelly",
+            "hometown": "Austin, TX",
+            "genres": [
+                "classic texas country"
+            ],
+            "tracks": [],
+            "categories": [
+                "Folk and Americana"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb135132bc9b9dbdb4ce33ed6a",
+            "popularity": 44
+        },
+        {
+            "name": "Josh Ritter & The Royal City Band",
+            "hometown": "Moscow, ID",
+            "genres": [
+                "modern folk rock",
+                "indie folk",
+                "alternative country",
+                "stomp and holler",
+                "new americana"
+            ],
+            "tracks": [
+                "Getting Ready to Get Down",
+                "Miles Away",
+                "Kathleen",
+                "Homecoming"
+            ],
+            "categories": [
+                "Folk and Americana",
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb1b07ab758d48be01179050ad",
+            "popularity": 48
+        },
+        {
+            "name": "Hinds",
+            "hometown": "Madrid, Spain",
+            "genres": [
+                "bubblegrunge",
+                "indie surf"
+            ],
+            "tracks": [
+                "Boom Boom Back",
+                "Stranger",
+                "Superstar",
+                "En Forma"
+            ],
+            "categories": [
+                "Alternative and Indie",
+                "Rock and Punk"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb4d757f0ce9cd1154bb561dce",
+            "popularity": 47
+        },
+        {
+            "name": "Durand Bernarr",
+            "hometown": "Cleveland, OH",
+            "genres": [
+                "alternative r&b"
+            ],
+            "tracks": [
+                "STUCK.",
+                "Facetime (with Durand Bernarr) - Remix",
+                "Mango Butter",
+                "Le Départ - Feat. Durand Bernarr"
+            ],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb421582efa5f0b8c864bb056b",
+            "popularity": 52
+        },
+        {
+            "name": "Vundabar",
+            "hometown": "Boston, MA",
+            "genres": [
+                "indie garage rock",
+                "boston indie",
+                "pov: indie"
+            ],
+            "tracks": [],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebbb82fe79790938e56bb4c3a3",
+            "popularity": 65
+        },
+        {
+            "name": "KennyHoopla",
+            "hometown": "Oshkosh, WI / Cleveland, OH",
+            "genres": [
+                "pop punk"
+            ],
+            "tracks": [
+                "estella//",
+                "how will i rest in peace if i'm buried by a highway?//",
+                "hollywood sucks//",
+                "blood (feat. KennyHoopla & JUDGE)"
+            ],
+            "categories": [
+                "Rock and Punk"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb413cf4534fc77849f2c812a3",
+            "popularity": 50
+        },
+        {
+            "name": "La Lom",
+            "hometown": "Los Angeles, CA",
+            "genres": [],
+            "tracks": [],
+            "categories": [],
+            "image": "https://i.scdn.co/image/ab6761610000e5eba61487bef3b76e3ef10fb772",
+            "popularity": 51
+        },
+        {
+            "name": "Richy Mitch & The Coalminers",
+            "hometown": "Seattle, WA",
+            "genres": [],
+            "tracks": [],
+            "categories": [],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebb453c27969ad1cfbd53af435",
+            "popularity": 45
+        },
+        {
+            "name": "corook",
+            "hometown": "Nashville, TN",
+            "genres": [],
+            "tracks": [
+                "if i were a fish (feat. Olivia Barton)",
+                "blankets",
+                "it's ok!",
+                "ballerina"
+            ],
+            "categories": [],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebbeb0b2b8b9ac096743558d64",
+            "popularity": 45
+        },
+        {
+            "name": "Rubblebucket",
+            "hometown": "Brooklyn, NY",
+            "genres": [
+                "shimmer pop"
+            ],
+            "tracks": [],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebd29275bb7d4394c9e9a00f3e",
+            "popularity": 43
+        },
+        {
+            "name": "Jelani Aryeh",
+            "hometown": "Los Angeles, CA",
+            "genres": [
+                "bedroom soul"
+            ],
+            "tracks": [
+                "Stella Brown",
+                "I'm in Love",
+                "Marigold",
+                "Shudder"
+            ],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebafcbe837100455da7f64d408",
+            "popularity": 50
+        },
+        {
+            "name": "Be Your Own Pet",
+            "hometown": "Nashville, TN",
+            "genres": [
+                "riot grrrl",
+                "nashville indie"
+            ],
+            "tracks": [
+                "Becky",
+                "Heart Throb - Album Version (Edited)",
+                "Worship The Whip",
+                "The Kelly Affair"
+            ],
+            "categories": [
+                "Rock and Punk",
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebc020d74c2145acdfd8850788",
+            "popularity": 40
+        },
+        {
+            "name": "múm",
+            "hometown": null,
+            "genres": [
+                "icelandic indie",
+                "post-rock",
+                "folktronica",
+                "icelandic electronic",
+                "indietronica",
+                "compositional ambient"
+            ],
+            "tracks": [
+                "We Have A Map Of The Piano",
+                "Sleep/Swim",
+                "Green Green Grass Of Tunnel",
+                "The Colorful Stabwound"
+            ],
+            "categories": [
+                "Alternative and Indie",
+                "Rock and Punk",
+                "Pop and Electronic",
+                "Miscellaneous"
+            ],
+            "image": "https://i.scdn.co/image/bba3b1e5e7a3a34931ccf93363bbd7f0320d7321",
+            "popularity": 39
+        },
+        {
+            "name": "Angélica Garcia",
+            "hometown": null,
+            "genres": [
+                "rva indie"
+            ],
+            "tracks": [
+                "Paloma",
+                "Juanita",
+                "El Ritmo (La Noche) (Xinobi Remix)",
+                "Gemini"
+            ],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb19bd25ca5b8f2fac73f71920",
+            "popularity": 37
+        },
+        {
+            "name": "Deep Sea Diver",
+            "hometown": "Seattle, WA",
+            "genres": [
+                "seattle indie",
+                "indie surf"
+            ],
+            "tracks": [
+                "Impossible Weight - feat. Sharon Van Etten",
+                "Billboard Heart",
+                "You Don't Own Me",
+                "Lights Out"
+            ],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb9ea0328640e25f45ff5d6db4",
+            "popularity": 36
+        },
+        {
+            "name": "Norman Sann",
+            "hometown": "Louisville, KY",
+            "genres": [],
+            "tracks": [],
+            "categories": [],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb2705ebac521bc61a551a97af",
+            "popularity": 46
+        },
+        {
+            "name": "The Bad Plus ",
+            "hometown": "Minneapolis, MN / New York, NY",
+            "genres": [
+                "modern jazz trio",
+                "jazz trio",
+                "jazz",
+                "avant-garde jazz",
+                "contemporary jazz"
+            ],
+            "tracks": [
+                "Casa Ben",
+                "Flim",
+                "As This Moment Slips Away",
+                "Pound For Pound"
+            ],
+            "categories": [
+                "Jazz and Blues"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb662fd163df35404868d5ee47",
+            "popularity": 35
+        },
+        {
+            "name": "Sir Woman",
+            "hometown": "Austin, TX",
+            "genres": [
+                "pop soul",
+                "austindie"
+            ],
+            "tracks": [
+                "Highroad",
+                "Making Love",
+                "Blame It on the Water",
+                "I Know Better"
+            ],
+            "categories": [
+                "Pop and Electronic"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebd5428c7facd4f401d355e793",
+            "popularity": 47
+        },
+        {
+            "name": "EMEL",
+            "hometown": "New York, NY",
+            "genres": [
+                "alt z"
+            ],
+            "tracks": [
+                "cinderella's dead",
+                "STRUT",
+                "what it means to be a girl",
+                "this is how i learn to say no"
+            ],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb2ea4cf60642222d12199a1cb",
+            "popularity": 59
+        },
+        {
+            "name": "Ovlov",
+            "hometown": "Newtown, CT",
+            "genres": [
+                "new england shoegaze",
+                "nu gaze",
+                "shoegaze",
+                "dreamo",
+                "connecticut indie",
+                "american shoegaze",
+                "countrygaze",
+                "indie punk"
+            ],
+            "tracks": [
+                "Strokes",
+                "Baby Shea",
+                "Where's My Dini?",
+                "The Wishing Well"
+            ],
+            "categories": [
+                "Rock and Punk",
+                "Alternative and Indie",
+                "Miscellaneous",
+                "Folk and Americana"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb495fc0022cbdfc205ebb65d4",
+            "popularity": 44
+        },
+        {
+            "name": "Lunar Vacation",
+            "hometown": "Atlanta, GA",
+            "genres": [
+                "atlanta indie",
+                "indie pop"
+            ],
+            "tracks": [],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb53a18448c3497e3837e2045d",
+            "popularity": 47
+        },
+        {
+            "name": "Reyna Tropical",
+            "hometown": "Los Angeles, CA",
+            "genres": [
+                "latinx alternative",
+                "tropical alternativo"
+            ],
+            "tracks": [
+                "Cartagena",
+                "Cartagena - Sylvan Esso Edit",
+                "Como Fuego",
+                "Conexión Ancestral"
+            ],
+            "categories": [
+                "Regional and Cultural"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb6b702203a97251e0bc319015",
+            "popularity": 41
+        },
+        {
+            "name": "Annie DiRusso",
+            "hometown": "New York / Nashville, TN",
+            "genres": [
+                "nashville singer-songwriter",
+                "indie pop"
+            ],
+            "tracks": [
+                "Coming Soon",
+                "Legs",
+                "Wet",
+                "Don't Swerve"
+            ],
+            "categories": [
+                "Regional and Cultural",
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebacaa5599b202d90a03f37bca",
+            "popularity": 40
+        },
+        {
+            "name": "Pom Poko",
+            "hometown": "Oslo, Norway",
+            "genres": [
+                "trondheim indie",
+                "crank wave"
+            ],
+            "tracks": [],
+            "categories": [
+                "Alternative and Indie",
+                "Hip Hop and Rap"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb38ae306fb16d18144e08f02c",
+            "popularity": 30
+        },
+        {
+            "name": "Hovvdy",
+            "hometown": "Austin, TX",
+            "genres": [
+                "small room",
+                "austindie",
+                "countrygaze"
+            ],
+            "tracks": [
+                "True Love",
+                "Bubba",
+                "Make Ya Proud",
+                "Jean - Julie's Version"
+            ],
+            "categories": [
+                "Instrumental and Experimental",
+                "Folk and Americana"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebd6825cf3a78993032b1bcf3d",
+            "popularity": 44
+        },
+        {
+            "name": "Ducks Ltd.",
+            "hometown": "Toronto, ON, Canada",
+            "genres": [
+                "modern jangle pop"
+            ],
+            "tracks": [],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb9d2e992bcc61c9bb4a3685f1",
+            "popularity": 40
+        },
+        {
+            "name": "The Bug Club",
+            "hometown": "Caldicot, Wales",
+            "genres": [
+                "crank wave"
+            ],
+            "tracks": [
+                "Lonsdale Slipons",
+                "A Bit Like James Bond",
+                "Quality Pints",
+                "Better Than Good"
+            ],
+            "categories": [
+                "Hip Hop and Rap"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb4f877cef650e61472461c492",
+            "popularity": 40
+        },
+        {
+            "name": "Sheer Mag ",
+            "hometown": "Philadelphia, PA",
+            "genres": [
+                "indie rock",
+                "philly indie",
+                "indie punk"
+            ],
+            "tracks": [
+                "Silver Line",
+                "FAN THE FLAMES",
+                "Expect The Bayonet",
+                "Moonstruck"
+            ],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eba46e498381c510e51b42d58d",
+            "popularity": 35
+        },
+        {
+            "name": "Crack Cloud",
+            "hometown": "Calgary, Alberta, Canada",
+            "genres": [
+                "canadian post-punk",
+                "crank wave"
+            ],
+            "tracks": [
+                "Drab Measure",
+                "Philosopher's Calling",
+                "Blue Kite",
+                "The Medium"
+            ],
+            "categories": [
+                "Rock and Punk",
+                "Hip Hop and Rap"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebec161afd9d68d8ff4c58db62",
+            "popularity": 34
+        },
+        {
+            "name": "YHWH Nailgun",
+            "hometown": "New York, NY",
+            "genres": [
+                "art punk"
+            ],
+            "tracks": [
+                "Castrato Raw (Fullback)",
+                "Too Bright to See",
+                "Black Braid",
+                "Look at Me, I'm a Rainer"
+            ],
+            "categories": [
+                "Rock and Punk"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebc31f4668860ffda390fc008d",
+            "popularity": 22
+        },
+        {
+            "name": "Godly the Ruler",
+            "hometown": "Chicago, IL",
+            "genres": [],
+            "tracks": [],
+            "categories": [],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebb0bc5dd993796dc8492cb6e3",
+            "popularity": 25
+        },
+        {
+            "name": "Joshua Ray Walker",
+            "hometown": "Dallas, TX",
+            "genres": [
+                "southern americana",
+                "roots americana"
+            ],
+            "tracks": [
+                "Lot Lizard",
+                "Sexy After Dark",
+                "Voices",
+                "Canyon"
+            ],
+            "categories": [
+                "Folk and Americana"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb31207f8d25cf80be96ac0e25",
+            "popularity": 34
+        },
+        {
+            "name": "Kash'd Out",
+            "hometown": "Orlando, FL",
+            "genres": [
+                "reggae rock",
+                "west coast reggae"
+            ],
+            "tracks": [],
+            "categories": [
+                "Regional and Cultural"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb1df8eb3db9e3495cb63ecc6c",
+            "popularity": 39
+        },
+        {
+            "name": "True Loves",
+            "hometown": "Seattle, WA",
+            "genres": [
+                "instrumental funk"
+            ],
+            "tracks": [
+                "The Dapper Derp",
+                "The Dirty",
+                "Famous Last Words",
+                "Did It Again"
+            ],
+            "categories": [
+                "Instrumental and Experimental"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebd2dc2f58d7a44e09e02216b9",
+            "popularity": 36
+        },
+        {
+            "name": "This Is Lorelei",
+            "hometown": "New York",
+            "genres": [
+                "nyc indie rock"
+            ],
+            "tracks": [],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb47a79a4b43ca5741f6f4d289",
+            "popularity": 34
+        },
+        {
+            "name": "Naked Giants",
+            "hometown": "Seattle, WA",
+            "genres": [
+                "seattle indie"
+            ],
+            "tracks": [
+                "Slow Dance II",
+                "Turns Blue",
+                "Green Fuzz",
+                "Take A Chance"
+            ],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb3566995997d98874c451a952",
+            "popularity": 35
+        },
+        {
+            "name": "Frog",
+            "hometown": "New Rochelle, NY",
+            "genres": [
+                "comedy rap"
+            ],
+            "tracks": [
+                "Dunked On",
+                "The Baddest",
+                "Good Guy Shoes",
+                "Bubblegum Bees"
+            ],
+            "categories": [
+                "Hip Hop and Rap"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb04c4ba476c49cf30bd3bdf58",
+            "popularity": 31
+        },
+        {
+            "name": "Valley James",
+            "hometown": "Star, ID",
+            "genres": [],
+            "tracks": [
+                "Any Fool Will Do - Western AF Version",
+                "Lucky Strike",
+                "Kill For You",
+                "Any Fool Will Do"
+            ],
+            "categories": [],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb26369816d5d324f24c38746e",
+            "popularity": 15
+        },
+        {
+            "name": "Arts Fishing Club",
+            "hometown": "Appleton, WI",
+            "genres": [],
+            "tracks": [
+                "Tupelo Honey",
+                "heart will remain",
+                "Blue Ridge Skyline",
+                "Horizon Eyes"
+            ],
+            "categories": [],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebe9cbb4de04cbfc65d0e13abf",
+            "popularity": 35
+        },
+        {
+            "name": "Kendra Morris",
+            "hometown": "New York, NY",
+            "genres": [],
+            "tracks": [
+                "Fade Out",
+                "Banshee",
+                "Dry",
+                "Concrete Waves"
+            ],
+            "categories": [],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb83559f7d066bd94d2e94f708",
+            "popularity": 39
+        },
+        {
+            "name": "Casino Hearts",
+            "hometown": "Los Angeles, CA",
+            "genres": [],
+            "tracks": [
+                "In & Out of Time",
+                "A Study in Flesh",
+                "Blue Eyed",
+                "R U Coming to My Room"
+            ],
+            "categories": [],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebeb10cf73b683e3ba20b40519",
+            "popularity": 20
+        },
+        {
+            "name": "BIG SIS",
+            "hometown": "Liverpool, UK",
+            "genres": [],
+            "tracks": [],
+            "categories": [],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb3b58a91c9a074bc6680f6a24",
+            "popularity": 33
+        },
+        {
+            "name": "The Jins",
+            "hometown": "Vancouver, BC, Canada",
+            "genres": [],
+            "tracks": [],
+            "categories": [],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb33e0a9c5aad0500fce149bd8",
+            "popularity": 42
+        },
+        {
+            "name": "Starcleaner Reunion",
+            "hometown": "New York, NY",
+            "genres": [
+                "nyc indie rock"
+            ],
+            "tracks": [
+                "Plein Air",
+                "Snowfeel",
+                "The Hand That I Put Down",
+                "Moss on my Brick Wall"
+            ],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb1ff629a35ef35557fb8c8a86",
+            "popularity": 27
+        },
+        {
+            "name": "Cab Ellis",
+            "hometown": "Brooklyn, NY",
+            "genres": [
+                "nyc indie rock"
+            ],
+            "tracks": [
+                "Impossible Sports",
+                "Chip Chop",
+                "The East Coast Hold On",
+                "Dogsittin'"
+            ],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb0c39277b890e24808e1fab7f",
+            "popularity": 12
+        },
+        {
+            "name": "Terell Safadi",
+            "hometown": "Vancouver, BC, Canada",
+            "genres": [
+                "indie hip hop",
+                "canadian hip hop",
+                "canadian underground hip hop",
+                "escape room",
+                "bc underground hip hop"
+            ],
+            "tracks": [],
+            "categories": [
+                "Hip Hop and Rap",
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5ebda6099d0265a15a2b20ceb95",
+            "popularity": 18
+        },
+        {
+            "name": "Black Pontiac",
+            "hometown": "Vancouver, BC",
+            "genres": [],
+            "tracks": [
+                "Soda Pop Rock",
+                "Troublemaker",
+                "November State of Mind",
+                "Tequila Cream"
+            ],
+            "categories": [],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb0a739512b269fe5bffd06814",
+            "popularity": 35
+        },
+        {
+            "name": "Shred Kelly",
+            "hometown": "Fernie, BC, Canada",
+            "genres": [
+                "canadian indie"
+            ],
+            "tracks": [
+                "For What It's Worth",
+                "Another Place",
+                "The Bear",
+                "Sing to the Night"
+            ],
+            "categories": [
+                "Alternative and Indie"
+            ],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb7520b5ec71e5c1c5e11bfe0e",
+            "popularity": 26
+        },
+        {
+            "name": "Neighbourly",
+            "hometown": "Victoria, BC, Canada",
+            "genres": [],
+            "tracks": [],
+            "categories": [],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb847c511c3d8affdbae1c3364",
+            "popularity": 20
+        },
+        {
+            "name": "AHSIA",
+            "hometown": "Vancouver, BC, Canada",
+            "genres": [],
+            "tracks": [
+                "Soul N Me",
+                "brain rot",
+                "BLACK WOMAN",
+                "The Get Down"
+            ],
+            "categories": [],
+            "image": "https://i.scdn.co/image/ab6761610000e5eb92059f0048265e25c40181e5",
+            "popularity": 7
+        }
+    ]
+}

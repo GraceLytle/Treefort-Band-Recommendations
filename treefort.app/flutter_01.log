@@ -1,0 +1,104 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run -d edge --web-port 3000
+
+## exception
+
+SocketException: SocketException: The remote computer refused the network connection.
+ (OS Error: The remote computer refused the network connection.
+, errno = 1225), address = localhost, port = 55345
+
+```
+#0      _NativeSocket.startConnect (dart:io-patch/socket_patch.dart:721:35)
+#1      _RawSocket.startConnect (dart:io-patch/socket_patch.dart:1920:26)
+#2      RawSocket.startConnect (dart:io-patch/socket_patch.dart:27:23)
+#3      Socket._startConnect (dart:io-patch/socket_patch.dart:2144:22)
+#4      Socket.startConnect (dart:io/socket.dart:825:21)
+#5      _ConnectionTarget.connect (dart:_http/http_impl.dart:2491:20)
+#6      _HttpClient._getConnection.connect (dart:_http/http_impl.dart:2930:12)
+#7      _HttpClient._getConnection (dart:_http/http_impl.dart:2935:12)
+#8      _HttpClient._openUrl (dart:_http/http_impl.dart:2790:12)
+#9      _HttpClient.getUrl (dart:_http/http_impl.dart:2632:48)
+#10     ChromeConnection.getUrl (package:webkit_inspection_protocol/webkit_inspection_protocol.dart:108:33)
+#11     ChromeConnection.getTabs (package:webkit_inspection_protocol/webkit_inspection_protocol.dart:53:26)
+#12     ChromeConnection.getTab (package:webkit_inspection_protocol/webkit_inspection_protocol.dart:90:31)
+<asynchronous suspension>
+#13     Chromium.close (package:flutter_tools/src/web/chrome.dart:512:15)
+<asynchronous suspension>
+#14     ChromiumDevice.stopApp (package:flutter_tools/src/web/web_device.dart:164:5)
+<asynchronous suspension>
+#15     ResidentWebRunner._cleanup (package:flutter_tools/src/isolated/resident_web_runner.dart:203:5)
+<asynchronous suspension>
+#16     ResidentWebRunner.cleanupAfterSignal (package:flutter_tools/src/isolated/resident_web_runner.dart:186:5)
+<asynchronous suspension>
+#17     TerminalHandler._cleanUp (package:flutter_tools/src/resident_runner.dart:1872:5)
+<asynchronous suspension>
+#18     TerminalHandler.processTerminalInput (package:flutter_tools/src/resident_runner.dart:1843:7)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, 3.24.2, on Microsoft Windows [Version 10.0.22631.4317], locale
+    en-US)
+    [32m•[39m Flutter version 3.24.2 on channel stable at C:\tools\flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision 4cf269e36d (2 months ago), 2024-09-03 14:30:00 -0700
+    [32m•[39m Engine revision a6bd3f1de1
+    [32m•[39m Dart version 3.5.2
+    [32m•[39m DevTools version 2.37.2
+
+[32m[✓][39m Windows Version (Installed version of Windows is version 10 or higher)
+
+[31m[✗][39m Android toolchain - develop for Android devices
+    [31m✗[39m Unable to locate Android SDK.
+      Install Android Studio from: https://developer.android.com/studio/index.html
+      On first launch it will assist you in installing the Android SDK components.
+      (or visit https://flutter.dev/to/windows-android-setup for detailed instructions).
+      If the Android SDK has been installed to a custom location, please use
+      `flutter config --android-sdk` to update to that location.
+
+
+[32m[✓][39m Chrome - develop for the web
+    [32m•[39m Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[33m[!][39m Visual Studio - develop Windows apps (Visual Studio Community 2022 17.9.6)
+    [32m•[39m Visual Studio at C:\Program Files\Microsoft Visual Studio\2022\Community
+    [32m•[39m Visual Studio Community 2022 version 17.9.34728.123
+    [31m✗[39m Visual Studio is missing necessary components. Please re-run the Visual Studio installer
+      for the "Desktop development with C++" workload, and include these components:
+        MSVC v142 - VS 2019 C++ x64/x86 build tools
+         - If there are multiple build tool versions available, install the latest
+        C++ CMake tools for Windows
+        Windows 10 SDK
+
+[33m[!][39m Android Studio (not installed)
+    [32m•[39m Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/to/windows-android-setup for detailed instructions).
+
+[32m[✓][39m IntelliJ IDEA Ultimate Edition (version 2023.3)
+    [32m•[39m IntelliJ at C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+
+[32m[✓][39m VS Code (version 1.95.2)
+    [32m•[39m VS Code at C:\Users\grace\AppData\Local\Programs\Microsoft VS Code
+    [32m•[39m Flutter extension version 3.100.0
+
+[32m[✓][39m Connected device (3 available)
+    [32m•[39m Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version
+      10.0.22631.4317]
+    [32m•[39m Chrome (web)      • chrome  • web-javascript • Google Chrome 130.0.6723.117
+    [32m•[39m Edge (web)        • edge    • web-javascript • Microsoft Edge 130.0.2849.68
+
+[32m[✓][39m Network resources
+    [32m•[39m All expected network resources are available.
+
+[33m![39m Doctor found issues in 3 categories.
+```

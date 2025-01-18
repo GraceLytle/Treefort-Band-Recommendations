@@ -1,0 +1,6 @@
+@TreefortAPI_HostAddress = http://localhost:5134
+
+GET {{TreefortAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
